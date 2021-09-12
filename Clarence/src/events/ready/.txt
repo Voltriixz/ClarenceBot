@@ -1,0 +1,11 @@
+client.user.setPresence({ 
+      setActivity: { 
+          name:`${serverIn} servers.`,
+          URL: "https://www.twitch.tv/Voltriixz_",
+          type: "STREAMING", //PLAYING, STREAMING, LISTENING, WATCHING, CUSTOM & COMPETING
+        }, 
+        status: 'online',  //status: online, idle, dnd & invisible
+      })
+      .catch(console.error);
+
+      //OLD VERSION
